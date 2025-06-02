@@ -37,8 +37,12 @@ class budi : public pekerja, public pelajar{
     budi (int pUmur):
     pekerja (pUmur),
     pelajar (pUmur),
-    ornag (pUmur) //hal ini dapat dilakukan menggunakan virtual
+    orang (pUmur) //hal ini dapat dilakukan menggunakan virtual
     {
         cout << "budi dibuat \n" << endl;
     }
 };
+
+int main (){
+
+}
